@@ -95,12 +95,15 @@ img {
     width: 20px;
     height: 20px;
     padding: 12px 12px;
-    fill: #afb1b8;
 }
 
-.social-links-item-link-icon:hover {
+/*.team .social-links-item-link-icon {
+    fill: #afb1b8;
+}*/
+
+/*.footer .social-links-item-link-icon {
     fill: var(--title-background-light-color);
-}
+}*/
 
 .social-links-list-item:not(:last-child) {
     margin-right: 10px;
@@ -363,6 +366,10 @@ img {
     text-transform: capitalize;
 }
 
+.team-position {
+    margin-bottom: 16px;
+}
+
 .team-member {
     font-weight: 500;
     margin-bottom: 10px;
@@ -374,13 +381,13 @@ img {
     padding-bottom: 24px;
 }
 
-.team-position {
-    margin-bottom: 16px;
+.team .social-links-item-link-icon {
+    fill: #afb1b8;
 }
 
-
-
-/* social-links-item ожидают следующего урока */
+.team .social-links-item-link-icon:hover {
+    fill: var(--title-background-light-color);
+}
 
 
 /* customers */
@@ -429,7 +436,6 @@ img {
     display: flex;
     align-items: center;
     padding-top: 45px;
-    /* вирівняється коли будуть додані іконкі */
 }
 
 .footer-navigation-social-list:not(:last-child) {
@@ -466,6 +472,18 @@ img {
     text-transform: uppercase;
 
     color: var(--title-background-light-color);
+}
+
+.footer .social-links-item-link-icon {
+    fill: var(--title-background-light-color);
+}
+
+.footer .social-links-item-link {
+    background-color: var(--description-color);
+}
+
+.footer .social-links-item-link:hover {
+    background-color: var(--accent-color);
 }
 
 .footer-line {
