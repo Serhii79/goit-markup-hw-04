@@ -111,6 +111,7 @@ img {
 }
 
 
+
 /* header */
 
 .header .container,
@@ -183,7 +184,9 @@ img {
 }
 
 
+
 /* main */
+
 
 
 /* hero */
@@ -258,6 +261,7 @@ img {
 }
 
 
+
 /* features */
 
 .features {
@@ -308,6 +312,7 @@ img {
     line-height: 1.71;
     /* or 171% */
 }
+
 
 
 /* specialization */
@@ -405,6 +410,7 @@ img {
 }
 
 
+
 /* customers */
 
 .customers .container {
@@ -435,11 +441,20 @@ img {
 }
 
 .customers-link-item {
-    width: 44px;
-    height: 49px;
+    fill: #afb1b8;
+}
+
+.customers-title-list-item:hover {
+    border: 1px solid var(--accent-color);
+}
+
+.customers-title-list-item:hover .customers-link-item {
+    fill: var(--accent-color);
+
 }
 
 /* customers-title подключено к .specialization-title */
+
 
 
 /* footer */
@@ -522,6 +537,7 @@ img {
         
     color: var(--footer-basement-color);
 }
+
 
 
 /*--porfolio--*/
