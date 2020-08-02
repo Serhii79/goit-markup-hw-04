@@ -178,7 +178,7 @@ img {
     fill: var(--description-color);
 }
 
-.header-address-item-link-icon:hover {
+.header-address-item-link:hover .header-address-item-link-icon {
     fill: var(--accent-color);
 }
 
