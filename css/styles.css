@@ -598,6 +598,10 @@ img {
     box-sizing: border-box;
 }
 
+.portfolio-main-list-item:hover {
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
 .portfolio-main-list-item:nth-child(3n) {
     margin-right: 0px;
 }
@@ -631,6 +635,8 @@ img {
 
 .portfolio-main-list-item-title,
 .portfolio-main-description {
+    width: 322px;
+    height: 36px;
    text-align: left;
    margin-left: 24px;
    margin-right: 24px;
